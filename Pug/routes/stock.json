@@ -1,0 +1,16 @@
+{
+  "Productos": [
+    {
+      "product": "PS5",
+      "price": "29000",
+      "img": "https://cdn2.iconfinder.com/data/icons/unoline-social-set/24/Dropbox-128.png",
+      "id": 1
+    },
+    {
+      "product": "Televisor",
+      "price": "150000",
+      "img": "https://cdn0.iconfinder.com/data/icons/business-finance-vol-2-56/512/statistics_report_computer_finance-128.png",
+      "id": 2
+    }
+  ]
+}
