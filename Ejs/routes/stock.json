@@ -1,0 +1,22 @@
+{
+  "Productos": [
+    {
+      "product": "PS5",
+      "price": "29000",
+      "img": "https://cdn2.iconfinder.com/data/icons/unoline-social-set/24/Dropbox-128.png",
+      "id": 1
+    },
+    {
+      "product": "Notebook",
+      "price": "150000",
+      "img": "https://cdn1.iconfinder.com/data/icons/business-finance-vol-3-39/512/online_meeting_video_conference-128.png",
+      "id": 2
+    },
+    {
+      "product": "Calculadora",
+      "price": "800",
+      "img": "https://cdn0.iconfinder.com/data/icons/business-finance-vol-2-56/512/z3-accounting_finance_account_calculator-128.png",
+      "id": 3
+    }
+  ]
+}

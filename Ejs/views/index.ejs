@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style-ejs.css">
+</head>
+<body>
+    <% if (productos.length) {%>
+        <div class="div-prod">
+            <h1>LISTADO DE PRODUCTOS</h1>
+            <table class="content-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Nombre</th>
+                  <th>Precio</th>
+                  <th>Foto</th>
+                </tr>
+              </thead>
+              <tbody>
+                    <ul>
+                        <% productos.forEach(function(item) { %>
+                        <tr>
+                            <td> <%= item.id  %> </td>
+                            <td> <%= item.product %> </td>
+                            <td> <%= item.price  %> </td>
+                            <td> <img width="40" src="<%= item.img  %> " alt="img-item" /> </td>
+                        </tr>
+                        <% }) %>
+                    </ul>
+                </tbody>
+            </table>
+            <a href="/" class="botons">Volver atras</a>
+            <% } else { %>
+            <h1 class="">NO HAY PRODUCTOS EN STOCK</h1>
+            <a href="/" class="botons">Volver atras</a>
+        </div>
+        <% } %>
+    
+</body>
+</html>
